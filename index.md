@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: DataJar Notes
 tagline: Notes on becoming a data scientist
 description: Just some random notes on data sciency stuff
