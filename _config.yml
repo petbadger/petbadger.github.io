@@ -1,4 +1,4 @@
-theme: midnight
+theme: jekyll-theme-midnight
 #theme: minima
 permalink: /posts/:year/:month/:day/:title
 exclude: ["README.md", "Rakefile"]
