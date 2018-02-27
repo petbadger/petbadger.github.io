@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/index">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	    		</ul>
+
+				<ul class="posts">
+				  {% for post in site.posts %}
+					<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+				  {% endfor %}
+				</ul>
+
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="https://github.com/petbadger">github.com/petbadger</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>

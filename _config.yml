@@ -1,1 +1,4 @@
+name: DataJar Notes
 theme: jekyll-theme-midnight
+permalink: /blog/:year/:month/:day/:title
+exclude: ["ReadMe.md", "Rakefile", "License.md"]
