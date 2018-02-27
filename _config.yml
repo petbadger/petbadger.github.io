@@ -1,5 +1,5 @@
-theme: jekyll-theme-midnight
-#theme: minima
+#theme: jekyll-theme-midnight
+theme: minima
 permalink: /posts/:year/:month/:day/:title
 exclude: ["README.md", "Rakefile"]
 
@@ -47,5 +47,5 @@ minima:
 
 
 #midnight theme:
-show_downloads: false
-google_analytics:
+#show_downloads: false
+#google_analytics:
