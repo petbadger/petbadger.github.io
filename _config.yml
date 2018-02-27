@@ -1,7 +1,9 @@
-theme: minima
+theme: midnight
+#theme: minima
 permalink: /posts/:year/:month/:day/:title
 exclude: ["README.md", "Rakefile"]
 
+#minima theme:
 title: Data Science notes
 author: PetBadger
 email: dj@datajar.ca
@@ -41,3 +43,9 @@ minima:
 #header_pages:
 # - about.html
 
+
+
+
+#midnight theme:
+show_downloads: false
+google_analytics:
