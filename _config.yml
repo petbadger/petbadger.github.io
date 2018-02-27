@@ -1,4 +1,4 @@
 name: DataJar Notes
-theme: jekyll-theme-midnight
+theme: jekyll-theme-minima
 permalink: /posts/:year/:month/:day/:title
 exclude: ["ReadMe.md", "Rakefile", "License.md"]
