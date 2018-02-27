@@ -9,7 +9,9 @@
 			<nav>
 	    		<ul>
 	        		<li><a href="/index">Home</a></li>
-		        	<li><a href="/pages/about">About</a></li>
+ 				    {% for page in site.pages %}
+					<li><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></li>
+					{% endfor %}
 	    		</ul>
 
 				<ul class="posts">
